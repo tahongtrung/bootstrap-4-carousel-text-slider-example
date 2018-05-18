@@ -1,0 +1,26 @@
+body{
+    font-family: 'Ropa Sans', sans-serif;
+	background: #E96D65;
+}
+.carousel-indicators{
+	top: 200px;
+}
+.slider-main{
+	margin-top: 220px;
+}
+.carousel-inner{
+	width: 70%;
+}
+.carousel-inner .carousel-item h3{
+	display: inline-block;
+	opacity: 0.5;
+}
+.carousel-inner .carousel-item p{
+	font-size: 17px;
+}
+
+@media (max-width: 360px) {
+	.carousel-indicators{
+		top: 320px;
+	}	
+}
